@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+body{
+  font-family: 'Poppins', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+.container{
+  width: 480px;
+  margin: 0 auto;
+  background-color: #f5f4f4;
+  padding: 25px;
+  border-right: 1px solid #ebebeb;
+  border-left: 1px solid #ebebeb;
+}
+.pointer{
+  cursor: pointer;
+  background-color: #f8e4e4;
+  border: 1px solid #d41818;
+  font-size: 12px;
+  padding: 2px 10px;
+  border-radius: 3px;
+  margin-top: 5px;
+  display: inline-block;
+}
+.app-title{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  color: #282d31;
+  margin: 0;
+  margin-bottom: 25px;
+}
+.balance-txt{
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #282d31;
+}
+.balance-amt{
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+.balance-box{
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ebebeb;
+}
+.color-red{
+  color: #d41818;
+}
+.color-green{
+  color: #118b11;
+}
+.sec-hd{
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.transaction-point{
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.transaction-txt{
+  font-size: 14px;
+  font-weight: 400;
+  color: #282d31;
+  display: block;
+}
+.transaction-amt{
+  font-size: 14px;
+  font-weight: 600;
+  text-align: right;
+  display: block;
+}
+.width50{
+  width: 50%;
+  display: block;
+  float: left;
+}
+.clear-both{
+  clear: both;
+  display: block;
+}
+.form-label{
+  font-size: 12px;
+  font-weight: 500;
+  color: #282d31;
+  width: 70px;
+  display: inline-block;
+}
+.form-input{
+  font-size: 12px;
+  font-weight: 600;
+  color: #282d31;
+  background-color: #fff;
+  padding: 4px 10px;
+  width: 200px;
+  border: 1px solid #dbdbdb;
+}
+.mb-20{
+  margin-bottom: 10px;
+}
+.add-btn{
+  background-color: #037ac9;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 2px;
+}
